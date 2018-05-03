@@ -374,4 +374,27 @@ input.uzbcities {
   font-size: 60px;
   color: #fff;
   text-align: center;
+  margin: 0;
+}
+.dynamic-number{
+  font-family: 'Roboto-Light';
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+}
+.running-numbers h1{
+  font-family: 'SFUIDisplay-Semibold';
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.air-tickets_title h1{
+  color: #111;
+  text-align: center;
+  font-family: 'Roboto-Medium';
+  font-size: 36px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
