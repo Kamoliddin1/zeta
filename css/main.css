@@ -1,0 +1,377 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrap{
+  background-color: #fff;
+  margin: 0 auto;
+}
+body{
+	font-family: "Roboto-Regular";
+  color: #111;
+}
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;       
+}
+.zetaBlock_topheader {
+  margin-top: 10px;
+}
+.topheader_leftblock {
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+}
+.headerlogo {
+  /* display: inline-block; */
+  float: left;
+}
+.headerlogo a img{
+  background: #288999;
+  width: 100%;
+}
+ul.logo_list {
+  /* display: inline-block; */
+  font-family: 'Roboto-Medium';
+  font-size: 18px;
+  float: right;
+  margin: 15px 40px;
+}
+.logo_list li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.logo_list li a{
+  color: #111;
+  text-decoration: none;
+}
+.topheader_rightblock {
+  /* display: inline-block; */
+  width: 55%;
+  float: right;
+}
+i.fas.fa-mobile-alt{
+  font-size: 21px;
+  background: #288999;
+  border-radius: 50%;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 1.5;
+}
+.rightblock_phone{
+  display: inline-block;
+  margin-top: 5px;
+}
+.rightblock_phone h5 {
+  display: inline-block;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+.rightblock_phone span {
+  font-size: 22px;
+  font-family: 'Roboto-Bold';
+  color: #111;
+}
+.social_icons {
+  display: inline-block;
+  margin-left: 35px;
+}
+.social_icons_item {
+  display: inline-block;
+  margin-left: 10px;
+} 
+.round-icons{
+  color: #e8f4f8;
+  background: #2ea0b6;
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 18px;
+}
+.lang {
+  display: inline-block;
+  color: #2fa1b6;
+  margin-left: 20px;
+}
+.lang ul li {
+  list-style: none;
+}
+.lang ul li a {
+  color: #2fa1b6;
+  font-family: "SFUIDisplay-Semibold";
+  margin-right: 2px;
+  text-decoration: none;
+}
+.registration{
+  display: inline-block;
+  background: #2fa1b6;
+  padding: 8px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.registration h5{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.registration a:hover{
+  text-decoration: none;
+}
+.zetaBlock_content{
+  background: url(../img/mountains.png) no-repeat top center/cover;
+  position: relative;
+  padding-top: 10px;
+  height: 500px;
+  z-index: 2;
+}
+.zetaBlock_content::before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:-1;
+  background-color: #272c2fb0;
+}
+.ticket {
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+}
+.avia{
+  float: left;
+  margin-top: 10px;
+}
+.avia ul li{
+  display: inline-block;
+  margin-right: 35px;
+}
+.avia ul li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  /* border-bottom: 5px solid;
+  padding-bottom: 7px; */
+}
+.avia ul li a.active{
+  border-bottom: 5px solid;
+  padding-bottom: 7px;
+}
+.search{ 
+  float: right;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.153); 
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+.search_icon{
+  display: inline-block;
+  color: #fff;  
+  font-size: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.search_text{
+  display: inline-block;
+  padding: 10px 16rem 10px 30px; 
+}
+.search_text a{
+  color: #fff;  
+  font-family: 'SFUIDisplay-Regular';
+  text-decoration: none;
+}
+.fly_to{
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 2px 2px #2f2f3aa8;
+  
+}
+.fly_to h1{
+  font-family: 'SFUIDisplay-Semibold';
+  font-size: 44px;
+  margin-top: 35px;
+}
+.fly_to h3{
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 22px;
+  margin-top: 0;
+}
+.flying_forms h6 {
+  font-size: 14px;
+  font-family: 'SFUIDisplay-Regular';
+  color: #c0cbde;
+}
+.flying_cityform{
+  width: 38.7%;
+}
+input.kzcities::placeholder{
+  color: #111;
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 18px;
+}
+input.kzcities {
+  border: none;
+  outline: none;
+  padding: 15px 40px;
+  width: 12em;
+  border-radius: 7px 0 0 7px;
+}
+input.uzbcities::placeholder{
+  color: #111;
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 18px;
+}
+input.uzbcities {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 12em;
+  border-radius: 0 7px 7px 0;
+}
+/* .flying_dateform{
+  width: 28.4%;
+}
+
+.third_form{
+  width: 32.7;
+} */
+
+/* Services section */
+.services_header h1{
+  font-size: 36px;
+  font-family: 'Roboto-Medium';
+  margin: 60px 0 35px 0;
+  text-align: center;
+}
+.services_content1{
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.services_content1_item{
+  border: 1px solid #f4f4f4;
+  padding: 30px 0;
+  margin-bottom: 20px;
+  transition: .5s ease-in
+}
+.services_content1_item:hover{
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
+}
+.services_content1_item h4{
+  font-size: 20px;
+  font-family: 'SFUIDisplay-Semibold';
+} 
+.services_content1>.col-md-3 {
+  padding: 0 10px;
+}
+.watch-again_btn {
+  text-align: center;
+}
+.btn{
+  border: 1px solid #d0d0d0;
+  padding: 18px 100px;
+  margin-bottom: 10px;
+}
+.btn a{
+  text-decoration: none;
+  color: #111;
+  font-family: 'SFUIDisplay-Medium';
+  font-size: 18px;
+  margin-left: 9px;
+}
+.flight_images_top img {
+  width: 100%;
+}
+.flight_images_top,
+.flight_images_bottom{
+  overflow: hidden;
+  position: relative;
+}
+.flight_images_bottom img {
+  width: 100%;
+}
+
+.row>.col-md-6,
+.row>.col-md-4 {
+  padding: 5px;
+}
+.textbox {
+  position: relative;
+}
+.textbox:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(44, 44, 44) 0%, rgba(21, 13, 13, 0.65) 19%, rgba(89, 89, 89, 0) 92%, rgba(0, 0, 0, 0) 100%);
+}
+.textbox .textbox-content {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  left: 5%;
+  display: block;
+  width: 80%;
+  color: #fff;
+}
+
+.textbox-content h3,h6,h4{
+  margin: 0;
+  padding: 0;
+}
+
+.textbox-content h4{
+  font-size: 24px;
+  font-family: 'Roboto-Medium';
+  display: inline-block;
+  margin: 0 0 10px;
+}
+.textbox-aviatickets{
+  color: #ffeb3a;
+  font-family: 'Roboto-Regular';
+}
+.textbox-aviatickets h6{
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.textbox-aviatickets span{
+  font-size: 26px;
+  font-family: 'Roboto-Medium';
+}
+.flight-variants{
+  color: #111;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'SFUIDisplay-Medium';
+  margin: 35px 0 105px 0;
+}
+.zetain_int{
+  background: #5070f2 url('../img/zeta-bg.png') no-repeat;
+}
+.zetain_int_title h1{
+  margin:85px 0 50px 0 ;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto-Medium';
+  font-size: 36px;
+}
+.running-numbers{
+  font-family: 'Roboto-Light';
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
