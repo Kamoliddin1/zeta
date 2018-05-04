@@ -390,6 +390,9 @@ input.uzbcities {
   margin-top: 0;
   margin-bottom: 100px;
 }
+section.air-tickets {
+  margin-bottom: 55px;
+}
 .air-tickets_title h1{
   color: #111;
   text-align: center;
@@ -397,4 +400,173 @@ input.uzbcities {
   font-size: 36px;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+.airbrands{
+  display: inline-block;
+}
+/* airslick */
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #ffeb3b;
+}
+.slick-dots li button:before{
+  font-size: 40px;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before{
+  color: #ffeb3b;
+}
+.slick-dots{
+  bottom: -45px;
+}
+.slick-dots li{
+  width: 15px;
+}
+a:focus{
+  outline: none;
+}
+i.fas.fa-chevron-left.slick-arrow {
+  float: left;
+  position: absolute;
+  top: 40%;
+  left: -25px;
+  cursor: pointer;
+}
+i.fas.fa-chevron-right.slick-arrow {
+  float: right;
+  position: absolute;
+  top: 40%;
+  right: -25px;
+  cursor: pointer;
+}
+.air-line {
+  border-bottom: 1px solid #c0e3e9;
+  margin-top: 60px;
+}
+.zeta-footer{
+  margin-top: 55px;
+}
+.zeta-logo_content_left{
+  float: left;
+  width: 60%;
+  color: #a0a0a0;
+  margin-bottom: 50px;
+}
+.zeta-logo_content1{
+  float: left;
+  width: 45%;
+}
+.zeta-logo{
+  margin-bottom: 25px;
+}
+.logo_content_text h5{
+  font-size: 16px;
+  font-family: 'SFUIDisplay-Regular';
+  line-height: 1.3;
+  margin-bottom: 45px;
+}
+.logo_content_icons {
+  display: inline-block;
+}
+.logo_content_icons_item {
+  display: inline-block;
+  margin-right: 16px;
+}
+.logo_content_icons_item a i{
+  color: #999;
+  font-size: 20px;
+}
+.zeta-footer-list{
+  float: right;
+  width: 50%;
+}
+.zeta-footer-list ul h3{
+  color: #333;
+  font-size: 14px;
+  font-family: 'SFUIDisplay-Semibold';
+  margin-bottom: 23px;  
+  text-transform: uppercase;
+}
+.zeta-footer-list ul li{
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 16px;
+  line-height: 1.8;
+  list-style: none;
+}
+.zeta-logo_content_right {
+  float: right;
+  width: 40%;
+  color: #a0a0a0;
+}
+.zeta-footer-list2{
+  float: left;
+  width: 50%;
+}
+.zeta-footer-list2 ul h3{
+  color: #333;
+  font-size: 14px;
+  font-family: 'SFUIDisplay-Semibold';
+  margin-bottom: 23px;  
+  text-transform: uppercase;
+}
+.zeta-footer-list2 ul li{
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 16px;
+  line-height: 1.8;
+  list-style: none;
+}
+.zeta-footer-list3{
+  float: left;
+  width: 50%;
+}
+.zeta-footer-list3 ul h3{
+  color: #333;
+  font-size: 14px;
+  font-family: 'SFUIDisplay-Semibold';
+  margin-bottom: 23px;  
+  text-transform: uppercase;
+}
+.zeta-footer-list3 ul li{
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 14px;
+  line-height: 1.8;
+  list-style: none;
+  display: inline-block;
+}
+.zeta-list-icons{
+  display: inline-block;
+}
+.zeta-list-icons i.fas.fa-phone:nth-child(2){
+  vertical-align: top;
+}
+.zeta-logo_content {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dbe1e1;
+}
+.footer-bottom{
+  color: #bbbebe;
+  font-family: 'SFUIDisplay-Regular';
+  font-size: 14px;
+  position: relative; 
+}
+.copyright{
+  float: left;
+}
+.develop{
+  float: right;
+}
+.develop span{
+  text-transform: uppercase;
+  color: #111;
+  font-family: 'SFUIDisplay-Semibold';
+}
+/* .copyright:after {
+  content:"\00a9";
+} */
+.fotter_bg {
+  position: absolute;
+  bottom: 0;
+
+}
+.fotter_bg img {
+  width: 100%;
 }

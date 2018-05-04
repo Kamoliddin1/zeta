@@ -328,15 +328,118 @@
           </div>
         </div>
       </div>
+      <div class="air-line"></div>
+    </section>
+
+    <section class="zeta-footer">
+      <div class="container">
+        <div class="row">
+          <div class="zeta-logo_content clearfix">
+            <div class="zeta-logo_content_left">
+              <div class="zeta-logo_content1">
+                <div class="zeta-logo">
+                  <a href="#">
+                    <img src="img/logo(2).png" alt="">
+                  </a>
+                </div>
+                <div class="logo_content_text">
+                  <h5>
+                    Многопрофильный Туроператор
+                    индивидуального отдыха.Лидер
+                    продаж  как по выездному так и
+                    по внутреннему туризму.
+                  </h5>
+                </div>
+                <div class="logo_content_icons">
+                  <div class="logo_content_icons_item">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  </div>
+                  <div class="logo_content_icons_item">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="logo_content_icons_item">
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                  </div>
+                  <div class="logo_content_icons_item">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                  <div class="logo_content_icons_item">
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="zeta-footer-list">
+                <ul>
+                  <h3>zeta tour</h3>
+                  <li>О нас</li>
+                  <li>Блог</li>
+                  <li>Способы оплаты</li>
+                  <li>Помощь</li>
+                  <li>Пользовательское соглашение</li>
+                  <li>Контакты</li>
+                </ul>
+              </div>
+            </div>
+            <div class="zeta-logo_content_right">
+              <div class="zeta-footer-list2">
+                <ul>
+                  <h3>услуги</h3>
+                  <li>Авиабилеты</li>
+                  <li>Туры</li>
+                  <li>Ж/д билеты</li>
+                  <li>Отели</li>
+                </ul>
+              </div>
+              <div class="zeta-footer-list3">
+                <ul>
+                  <h3>контакты</h3>
+                  <div>
+                    <div class="zeta-list-icons">
+                      <i class="far fa-envelope"></i>
+                    </div>
+                    <li>sale@zetatour.kz</li>
+                  </div>
+                  <div>
+                    <div class="zeta-list-icons">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <li>
+                      +7 7252 53 77 44 <br>  
+                      +7 7252 53 77 44
+                    </li>
+                  </div>
+                  <div>
+                    <div class="zeta-list-icons">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <li>г. Шымкент, ул. Турысова, 9</li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="copyright">
+            <h5>© 2018  Все права защищены Туроператор Zeta Tour</h5>
+          </div>
+          <div class="develop">
+            <h5>Разработка сайта: <span>Online Service Group</span> </h5>
+          </div>
+        </div>
+      </div>
+      <div class="fotter_bg">
+        <img src="img/foot-bg.png" alt="">
+      </div>
     </section>
 
   </div>
-  <!-- <i class="fal fa-fighter-jet"></i> -->
-  <!-- <i class="fas fa-exchange-alt"></i> -->
-  <!-- <i class="fal fa-plane"></i> -->
-  <!-- <i class="fal fa-calendar"></i> -->
-  <!-- <i class="fal fa-user"></i> -->
-  <!-- <i class="fal fa-chevron-down"></i> -->
+
 
 
 <!-- Scripts -->
@@ -355,84 +458,35 @@
           }
       });
     </script>
-    
-  <!-- owl-carousel -->
-  <script>
-    $(function() {
 
-      // asasasas
-      var owl = $('.hd-carousel .owl-carousel').owlCarousel({
-        loop:true,
-        items:1,
-        nav: true,
-        dots:false,
-        navText: ["<img src='img/left-btn.png'>","<img src='img/right-btn.png'>"],
-        autoplay: 2000,
-        responsive:{
-          320:{
-            mouseDrag:false,
-            touchDrag:true,
-          },
-        }
-      });
-      
-
-      $('.news-carousel').owlCarousel({
-        loop: true,
-        dots:true,
-        // nav:true,
-        center:true,
-        items:3,
-        margin: 10,
-        autoplay: 2000,
-        responsive:{
-          0:{
-            items:1,
-            center:false,
-          },
-          500:{
-            items:2,
-            center:false,
-            mouseDrag:false,
-            touchDrag:true,
-          },
-          1024:{
-            items:3,
-          },
-          2560:{
-            items:3,
-          },
-        }
-
-      });
-
-    });
-  </script>
-  
   <!-- slick -->
   <script src="js/slick.min.js"></script>
   <script>
     $(document).ready(function(){
-      $('.popular-slick').slick({
-        slidesToShow: 3,
+      $('.wrapslick-airbrands').slick({
+        slidesToShow: 6,
         slidesToScroll: 1,
         infinite: true,
-        // autoplay: true,
-        // autoplaySpeed: 3000,
-        responsive: [
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-        ]
+        dots: true,
+        arrows:true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: ('<i class="fas fa-chevron-left"></i>'),
+        nextArrow: ('<i class="fas fa-chevron-right"></i>'),
+        // responsive: [
+        //   {
+        //     breakpoint: 992,
+        //     settings: {
+        //       slidesToShow: 2,
+        //       slidesToScroll: 1,
+        //       infinite: true,
+        //     }
+        //   },
+        // ]
       });
     });
   </script>
-
+  <!-- wow -->
   <script src="js/wow.min.js"></script>
   <script>
       new WOW().init();
