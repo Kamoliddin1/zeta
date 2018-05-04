@@ -87,10 +87,10 @@
               </div>
               <div class="search">
                 <div class="search_text">
-                  <a href="#">Поиск по сайту</a>
-                </div>
-                <div class="search_icon">
-                  <i class="fas fa-search"></i>
+                  <input type="text" placeholder="Поиск по сайту">
+                  <div class="search_icon">
+                    <i class="fas fa-search"></i>
+                  </div>
                 </div>
               </div>
             </div>
@@ -290,8 +290,20 @@
           </div>
           <div class="running-numbers">
             <div>
-              <p id="dynamic-number" class="dynamic-number">0</p>
+              <p id="dynamic-number" class="dynamic-number">50</p>
               <h1>Стран</h1>  
+            </div>
+            <div>
+              <p id="dynamic-number1" class="dynamic-number">1000</p>
+              <h1>Авиакомпаний</h1>  
+            </div>
+            <div>
+              <p id="dynamic-number2" class="dynamic-number">200 000</p>
+              <h1>Покупок ежемесячно</h1>  
+            </div>
+            <div>
+              <p id="dynamic-number3" class="dynamic-number">500 000</p>
+              <h1>Пользователей</h1>  
             </div>
           </div>
         </div>
@@ -447,7 +459,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <!-- numbers -->
-    <script>
+    <!-- <script>
     var currentNumber = $('#dynamic-number').text();
 
       $({numberValue: currentNumber}).animate({numberValue: 50}, {
@@ -458,6 +470,39 @@
           }
       });
     </script>
+    <script>
+    var currentNumber = $('#dynamic-number1').text();
+
+      $({numberValue: currentNumber}).animate({numberValue: 1000}, {
+          duration: 2000,
+          easing: 'linear',
+          step: function() { 
+              $('#dynamic-number1').text(Math.ceil(this.numberValue)); 
+          }
+      });
+    </script>
+    <script>
+    var currentNumber = $('#dynamic-number2').text();
+
+      $({numberValue: currentNumber}).animate({numberValue: 200000}, {
+          duration: 2000,
+          easing: 'linear',
+          step: function() { 
+              $('#dynamic-number2').text(Math.ceil(this.numberValue)); 
+          }
+      });
+    </script>
+    <script>
+    var currentNumber = $('#dynamic-number3').text();
+
+      $({numberValue: currentNumber}).animate({numberValue: 500000}, {
+          duration: 2000,
+          easing: 'linear',
+          step: function() { 
+              $('#dynamic-number3').text(Math.ceil(this.numberValue)); 
+          }
+      });
+    </script> -->
 
   <!-- slick -->
   <script src="js/slick.min.js"></script>

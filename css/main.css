@@ -170,31 +170,38 @@ i.fas.fa-mobile-alt{
 .search{ 
   float: right;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0.153); 
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
+
 }
 .search_icon{
-  display: inline-block;
-  color: #fff;  
+  position: absolute;
+  color: #fff;
   font-size: 20px;
-  margin-right: 20px;
-  vertical-align: middle;
+  right: 5%;
+  top: 10%;
 }
+
 .search_text{
-  display: inline-block;
-  padding: 10px 16rem 10px 30px; 
-}
-.search_text a{
+  position: relative;
   color: #fff;  
   font-family: 'SFUIDisplay-Regular';
   text-decoration: none;
 }
+.search_text input{
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.153); 
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  padding: 10px 16rem 10px 30px; 
+}
+.search_text input::-webkit-input-placeholder{
+  color: #fff;
+}
+
 .fly_to{
   color: #fff;
   text-align: center;
   text-shadow: 1px 2px 2px #2f2f3aa8;
-  
 }
 .fly_to h1{
   font-family: 'SFUIDisplay-Semibold';
@@ -375,6 +382,11 @@ input.uzbcities {
   color: #fff;
   text-align: center;
   margin: 0;
+  display: inline-block;
+}
+.running-numbers div{
+  display: inline-block;
+  margin-left: 2em;
 }
 .dynamic-number{
   font-family: 'Roboto-Light';
